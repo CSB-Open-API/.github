@@ -1,4 +1,4 @@
-## CSB Open API
+# CSB Open API
 > Built by students for students
 
 A most certainly helpful tool for a most certainly competitive student.
@@ -9,8 +9,8 @@ unachievable with the stock engage engine. CSB Open API **must not** be mistaken
 - CSB Open API is purely a passion project as much as it is a utility project. It was never made with any intent of discrediting people and must be used
 for personal use **ONLY**.
 
-### FAQ
-#### Are the results of CSB Open API achieved by *hacking*?
+## FAQ
+### Are the results of CSB Open API achieved by *hacking*?
 TL;DR: NO
 
 Hacking is a very serious offense and most certainly a very hard skill to master. Even though I (Patrick Arvatu) would love to know the craft of hacking
@@ -23,7 +23,7 @@ being opted on/off:
 
 > ⚠️ Keep in mind that a valid engage session token is needed to preform any of these requests.
 
-##### Privacy OFF:
+#### Privacy OFF:
 Request made: POST https://cambridgeschoolportal.engagehosted.com/Services/ReportCommentServices.asmx/RenderPupilMarksheet
 
 > This is the location of marks on the engage server ^
@@ -43,7 +43,7 @@ information, at least in the eyes of engage.
 I proceeded to send many requests to this endpoint with incremental ids till I got the name and IDs of around 1000 people, which again isnt any private
 information or hacking, it is just me using publicly available data.
 
-##### Privacy ON:
+#### Privacy ON:
 Request made: POST https://cambridgeschoolportal.engagehosted.com/Services/PupilDetailsServices.asmx/RenderSimpleSection
 
 Body of the request:
@@ -63,16 +63,14 @@ was in the hands of the developers/employees of engage on what to make public/pr
 
 **CSB Open API isnt made by hacking, its made by the manipulation of open data!**
 
-#### Can I help with the project?
+### Can I help with the project?
 Sure! We are very excited to welcome anyone with potential value on the team!
 To apply/get details go to: https://discord.gg/EmPArQuWfe
 
-#### Can anyone see my grades?
+### Can anyone see my grades?
 No, not anyone can just download the software and see your grades. When CSB Open API is started up, it checks for a valid Engage auth token. What this means
 is that to access the public data, you need to have a valid engage account/login, hence you need to be in the school. Keep in mind that the Engage auth token
 expires so if you share your token to anyone they will have limited access before the token expires.
 
-### Maintainers:
+# Maintainers:
 - [Patrick Adrian Arvatu](https://github.com/Lambels)
-
-https://discord.gg/EmPArQuWfe
