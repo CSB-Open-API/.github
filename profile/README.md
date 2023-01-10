@@ -1,3 +1,12 @@
+---
+
+⚠️ The CSB Open API project is currently discontinued / postponed as of 10 January 2023. The engage team will push the patch to the request CSB Open API
+and most possibly terminate the projects core functionality. The project will remain as a proof of concept of what it could have been.
+
+Thanks, Patrick Arvatu.
+
+---
+
 # CSB Open API
 > Built by students for students
 
